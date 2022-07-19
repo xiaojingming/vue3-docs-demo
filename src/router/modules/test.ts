@@ -49,6 +49,11 @@ const routes = [
     path: '/t10',
     component: () => import('../../Pages/Test/TestPage10.vue'),
   },
+  {
+    name: 't11',
+    path: '/t11',
+    component: () => import('../../Pages/Test/TestPage11.vue'),
+  },
 ];
 
 export default routes;
